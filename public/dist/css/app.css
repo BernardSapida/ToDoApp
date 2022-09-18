@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-x {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(274deg, 100%, 91%);
+  border-radius: 5px;
+}
+
+body {
+  width: 100%;
+}
+body header select {
+  margin-right: 12px;
+}
+body main {
+  position: relative;
+}
+body main #search {
+  width: 250px;
+}
+body main #id {
+  pointer-events: none;
+}
+body main .message {
+  margin: auto;
+  max-width: 900px;
+}
+body main .flex {
+  display: flex;
+  margin: auto;
+  height: 90%;
+  max-width: 900px;
+  justify-content: space-between;
+}
+body main #table {
+  margin: auto;
+  margin-bottom: 100px;
+  position: relative;
+  max-height: 750px !important;
+  height: 90%;
+  max-width: 900px;
+  width: 100%;
+  overflow-y: scroll;
+  z-index: 1;
+}
+body main .position-relative {
+  z-index: 3;
+}
+body main .required-fields {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 64);
+}
+body hr {
+  margin-top: 10px;
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.324);
+}/*# sourceMappingURL=app.css.map */
